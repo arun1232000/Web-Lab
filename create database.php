@@ -15,7 +15,7 @@
 		 
          if ($mysqli->query("CREATE DATABASE sample")) {
             printf("Database TUTORIALS created successfully.<br />");
-         }
+         } 
          if ($mysqli->errno) {
             printf("Could not create database: %s<br />", $mysqli->error);
          }
