@@ -24,7 +24,7 @@
          if ($mysqli->query($sql)) {
             printf("Table book_tb created successfully.<br />");
          }
-         if ($mysqli->errno) {
+         if ($mysqli->errno) { 
             printf("Could not create table: %s<br />", $mysqli->error);
          }
          $mysqli->close();
