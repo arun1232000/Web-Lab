@@ -5,7 +5,7 @@
    <body>
       <?php
          if(isset($_POST['add'])) {
-            $dbhost = 'localhost';
+            $dbhost = 'localhost'; 
             $dbuser = '21mca046';
             $dbpass = '2703';
             $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
