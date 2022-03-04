@@ -5,8 +5,8 @@
    <body>
       <?php
          $dbhost = 'localhost';
-         $dbuser = '21mca026';
-         $dbpass = '2504';
+         $dbuser = '21mca046';
+         $dbpass = '2703';
          $mysqli = new mysqli($dbhost, $dbuser, $dbpass);
          
          if($mysqli->connect_errno ) {
